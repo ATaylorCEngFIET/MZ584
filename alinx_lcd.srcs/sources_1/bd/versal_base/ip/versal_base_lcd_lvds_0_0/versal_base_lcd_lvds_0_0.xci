@@ -1,0 +1,71 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "versal_base_lcd_lvds_0_0",
+    "cell_name": "lcd_lvds_0",
+    "component_reference": "user.org:user:lcd_lvds:1.0",
+    "ip_revision": "9",
+    "gen_directory": "../../../../../../Alinx_lcd.gen/sources_1/bd/versal_base/ip/versal_base_lcd_lvds_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "versal_base_lcd_lvds_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "versal" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xcve2302" } ],
+        "PACKAGE": [ { "value": "sfva784" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1LP" } ],
+        "STATIC_POWER": [ { "value": "S" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "9" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Alinx_lcd.gen/sources_1/bd/versal_base/ip/versal_base_lcd_lvds_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "tx_refclk": [ { "direction": "in" } ],
+        "tx_reset": [ { "direction": "in" } ],
+        "mode": [ { "direction": "in" } ],
+        "lcd_hs": [ { "direction": "in" } ],
+        "lcd_vs": [ { "direction": "in" } ],
+        "lcd_de": [ { "direction": "in" } ],
+        "lcd_odata_rgb": [ { "direction": "in", "size_left": "23", "size_right": "0" } ],
+        "lcd_pclk": [ { "direction": "out" } ],
+        "tx_locked": [ { "direction": "out" } ],
+        "clkoutphyen": [ { "direction": "in" } ],
+        "intf_rdy": [ { "direction": "in" } ],
+        "parallel_clk": [ { "direction": "out" } ],
+        "pll_clkoutphy_in": [ { "direction": "out" } ],
+        "tx_enable": [ { "direction": "out" } ],
+        "tx_clk_data": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "tx_data": [ { "direction": "out", "size_left": "15", "size_right": "0" } ]
+      },
+      "interfaces": {
+        "lcd_vid_io": {
+          "vlnv": "xilinx.com:interface:vid_io:1.0",
+          "abstraction_type": "xilinx.com:interface:vid_io_rtl:1.0",
+          "mode": "slave",
+          "port_maps": {
+            "DATA": [ { "physical_name": "lcd_odata_rgb" } ],
+            "ACTIVE_VIDEO": [ { "physical_name": "lcd_de" } ],
+            "VSYNC": [ { "physical_name": "lcd_vs" } ],
+            "HSYNC": [ { "physical_name": "lcd_hs" } ]
+          }
+        }
+      }
+    }
+  }
+}

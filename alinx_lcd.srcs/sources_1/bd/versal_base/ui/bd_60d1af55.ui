@@ -1,0 +1,106 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.651608",
+   "Default View_TopLeft":"-100,-25",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR4 -pg 1 -lvl 7 -x 2640 -y 520 -defaultsOSRD
+preplace port sys_clk -pg 1 -lvl 0 -x 0 -y 590 -defaultsOSRD
+preplace portBus dataout1_n_0 -pg 1 -lvl 7 -x 2640 -y 1070 -defaultsOSRD
+preplace portBus dataout1_n_3 -pg 1 -lvl 7 -x 2640 -y 1190 -defaultsOSRD
+preplace portBus dataout1_p_0 -pg 1 -lvl 7 -x 2640 -y 1050 -defaultsOSRD
+preplace portBus dataout1_n_2 -pg 1 -lvl 7 -x 2640 -y 1150 -defaultsOSRD
+preplace portBus dataout1_p_3 -pg 1 -lvl 7 -x 2640 -y 1170 -defaultsOSRD
+preplace portBus dataout1_p_2 -pg 1 -lvl 7 -x 2640 -y 1130 -defaultsOSRD
+preplace portBus clkout1_n -pg 1 -lvl 7 -x 2640 -y 1030 -defaultsOSRD
+preplace portBus clkout1_p -pg 1 -lvl 7 -x 2640 -y 1010 -defaultsOSRD
+preplace portBus dataout1_n_1 -pg 1 -lvl 7 -x 2640 -y 1110 -defaultsOSRD
+preplace portBus dataout1_p_1 -pg 1 -lvl 7 -x 2640 -y 1090 -defaultsOSRD
+preplace portBus lcd_en -pg 1 -lvl 7 -x 2640 -y 540 -defaultsOSRD
+preplace portBus lcd_sync -pg 1 -lvl 7 -x 2640 -y 1270 -defaultsOSRD
+preplace inst versal_cips_0 -pg 1 -lvl 1 -x 220 -y 380 -defaultsOSRD
+preplace inst axi_noc_0 -pg 1 -lvl 2 -x 680 -y 360 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 4 -x 1520 -y 90 -defaultsOSRD
+preplace inst v_tpg_0_smc -pg 1 -lvl 3 -x 1100 -y 280 -defaultsOSRD
+preplace inst rst_versal_cips_0_239M -pg 1 -lvl 2 -x 680 -y 630 -defaultsOSRD
+preplace inst axis_ila_0 -pg 1 -lvl 5 -x 1880 -y 90 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 5 -x 1880 -y 350 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 4 -x 1520 -y 350 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 1880 -y 860 -defaultsOSRD
+preplace inst axis_ila_1 -pg 1 -lvl 6 -x 2370 -y 380 -defaultsOSRD
+preplace inst v_tc_0_smc -pg 1 -lvl 3 -x 1100 -y 460 -defaultsOSRD
+preplace inst lcd_lvds_0 -pg 1 -lvl 3 -x 1100 -y 730 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -x 1880 -y 990 -defaultsOSRD
+preplace inst advanced_io_wizard_0 -pg 1 -lvl 6 -x 2370 -y 1060 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 5 -x 1880 -y 1090 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 5 -x 1880 -y 1190 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 5 -x 1880 -y 1290 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 5 -x 1880 -y 1390 -defaultsOSRD
+preplace inst axis_ila_2 -pg 1 -lvl 6 -x 2370 -y 740 -defaultsOSRD
+preplace netloc versal_cips_0_fpd_cci_noc_axi0_clk 1 1 1 450 370n
+preplace netloc versal_cips_0_fpd_cci_noc_axi1_clk 1 1 1 460 390n
+preplace netloc versal_cips_0_fpd_cci_noc_axi2_clk 1 1 1 470 410n
+preplace netloc versal_cips_0_fpd_cci_noc_axi3_clk 1 1 1 480 430n
+preplace netloc versal_cips_0_lpd_axi_noc_clk 1 1 1 490 450n
+preplace netloc versal_cips_0_pmc_axi_noc_axi0_clk 1 1 1 500 470n
+preplace netloc versal_cips_0_pl0_ref_clk 1 1 5 440 170 870 170 1320 200 1700 170 2120
+preplace netloc rst_versal_cips_0_239M_peripheral_aresetn 1 2 3 880 360 1330 190 1710
+preplace netloc versal_cips_0_pl0_resetn 1 1 1 420 390n
+preplace netloc v_axi4s_vid_out_0_sof_state_out 1 3 3 1350 530 NJ 530 2050
+preplace netloc xlconstant_0_dout 1 3 4 1340 510 1720 540 2110 540 NJ
+preplace netloc rst_versal_cips_0_239M_peripheral_reset 1 2 4 890 370 1300J 540 1700 680 2100J
+preplace netloc v_axi4s_vid_out_0_locked 1 5 1 N 360
+preplace netloc v_axi4s_vid_out_0_overflow 1 5 1 N 380
+preplace netloc v_axi4s_vid_out_0_underflow 1 5 1 N 400
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 3 3 1350 180 NJ 180 2110
+preplace netloc lcd_lvds_0_lcd_pclk 1 3 2 1310 500 1690J
+preplace netloc v_axi4s_vid_out_0_vid_data 1 2 4 910 560 NJ 560 NJ 560 2080
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 2 4 900 550 NJ 550 NJ 550 2100
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 2 4 930 580 NJ 580 NJ 580 2060
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 2 4 920 570 NJ 570 NJ 570 2070
+preplace netloc xlconstant_1_dout 1 2 5 910 930 NJ 930 NJ 930 2050 1270 NJ
+preplace netloc advanced_io_wizard_0_intf_rdy 1 2 5 930 880 1320J 790 NJ 790 2120 840 2610
+preplace netloc advanced_io_wizard_0_shared_pll_clkoutphyen_out 1 2 5 920 890 1340J 800 NJ 800 2130 850 2620
+preplace netloc lcd_lvds_0_parallel_clk 1 3 3 NJ 710 NJ 710 2090
+preplace netloc lcd_lvds_0_pll_clkoutphy_in 1 3 3 1290J 920 NJ 920 2070
+preplace netloc lcd_lvds_0_tx_locked 1 3 3 NJ 690 NJ 690 2080
+preplace netloc lcd_lvds_0_tx_clk_data 1 3 3 NJ 770 NJ 770 2060
+preplace netloc xlslice_0_Dout 1 5 1 NJ 1090
+preplace netloc xlslice_1_Dout 1 5 1 2040J 1130n
+preplace netloc xlslice_2_Dout 1 5 1 2080J 1170n
+preplace netloc xlslice_3_Dout 1 5 1 2130J 1210n
+preplace netloc lcd_lvds_0_tx_data 1 3 2 1270J 810 1720
+preplace netloc advanced_io_wizard_0_Data_pins_1_n 1 6 1 NJ 1070
+preplace netloc advanced_io_wizard_0_Data_pins_4_n 1 6 1 NJ 1190
+preplace netloc advanced_io_wizard_0_Data_pins_1_p 1 6 1 NJ 1050
+preplace netloc advanced_io_wizard_0_Data_pins_3_n 1 6 1 NJ 1150
+preplace netloc advanced_io_wizard_0_Data_pins_4_p 1 6 1 NJ 1170
+preplace netloc advanced_io_wizard_0_Data_pins_3_p 1 6 1 NJ 1130
+preplace netloc advanced_io_wizard_0_Data_pins_0_n 1 6 1 NJ 1030
+preplace netloc advanced_io_wizard_0_Data_pins_0_p 1 6 1 NJ 1010
+preplace netloc advanced_io_wizard_0_Data_pins_2_n 1 6 1 NJ 1110
+preplace netloc advanced_io_wizard_0_Data_pins_2_p 1 6 1 NJ 1090
+preplace netloc lcd_lvds_0_tx_enable 1 3 3 NJ 750 NJ 750 2050
+preplace netloc versal_cips_0_FPD_CCI_NOC_0 1 1 1 N 230
+preplace netloc versal_cips_0_FPD_CCI_NOC_1 1 1 1 N 250
+preplace netloc versal_cips_0_FPD_CCI_NOC_2 1 1 1 N 270
+preplace netloc versal_cips_0_FPD_CCI_NOC_3 1 1 1 N 290
+preplace netloc versal_cips_0_LPD_AXI_NOC_0 1 1 1 N 310
+preplace netloc versal_cips_0_PMC_NOC_AXI_0 1 1 1 N 330
+preplace netloc axi_noc_0_CH0_DDR4_0 1 2 5 NJ 380 1290J 520 NJ 520 NJ 520 NJ
+preplace netloc sys_clk0_0_1 1 0 2 20J 170 420J
+preplace netloc v_tpg_0_smc_M00_AXI 1 3 1 1270 60n
+preplace netloc axi_noc_0_M00_AXI 1 2 1 860 260n
+preplace netloc v_tpg_0_m_axis_video 1 4 1 1690 70n
+preplace netloc v_tc_0_vtiming_out 1 4 1 1690 290n
+preplace netloc v_tc_0_smc_M00_AXI 1 3 1 1280 260n
+preplace netloc axi_noc_0_M01_AXI 1 2 1 860 360n
+levelinfo -pg 1 0 220 680 1100 1520 1880 2370 2640
+pagesize -pg 1 -db -bbox -sgen -100 0 2830 1450
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_cips_cnt":"1"
+}
